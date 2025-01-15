@@ -1,3 +1,5 @@
+### requires pillow & pyzbar - latter may not work
+
 from PIL import Image
 from pyzbar.pyzbar import decode
 import urllib.parse
